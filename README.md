@@ -13,7 +13,7 @@ pip install binance
 import binance
 ```
 
-For authenticated API calls, your API key and secret be be set
+For authenticated API calls, set your API key and secret
 ```
 binance.set("your api key", "your secret key")
 ```
