@@ -1,7 +1,10 @@
 # binance
-[Binance](http://www.binance.com) API wrapper in python
+[Binance](http://www.binance.com) API client in python
 
-Compatible with Python 2.7-3.6
+#### Features
+- Does not require an api key for public methods
+- Code is concise and clean
+- Compatible with Python 2.7-3.6
 
 #### Installation
 ```
