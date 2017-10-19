@@ -1,5 +1,4 @@
-# binance
-[Binance](http://www.binance.com) API client in python
+# Binance API client in Python
 
 #### Features
 - Does not require an api key for public methods
