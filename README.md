@@ -39,7 +39,7 @@ binance.depth("BNBBTC", limit=5)  # top 5 levels only
 binance.klines("BNBBTC", "1m")
 ```
 
-#### Get balances
+#### Get balances for all currencies
 ```
 binance.balances()
 ```
@@ -49,10 +49,10 @@ binance.balances()
 # place 1000 lot buy order at 0.000001 on BNBBTC
 binance.order("BNBBTC", binance.BUY, 1000, 0.000001)
 
-# dry run
+# test an order to see if any errors are returned from the API
 binance.order("BNBBTC", binance.BUY, 1000, 0.000001, test=True)
 
-# use a client id
+# use a client id to identify the order later
 binance.order("BNBBTC", binance.BUY, 1000, 0.000001, newClientOrderId="foobar")
 ```
 
