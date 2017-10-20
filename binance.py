@@ -101,7 +101,7 @@ def klines(symbol, interval, **kwargs):
 
 def balances():
     """Get current balances for all symbols."""
-    data = signedRequest("GET", "/api/v3/account")
+    data = signedRequest("GET", "/api/v3/account", {})
     return {d["asset"]: {
         "free": d["free"],
         "locked": d["locked"],
@@ -231,7 +231,7 @@ def request(method, path, params=None):
     return resp.json()
 
 
-def signedRequest(method, path, params={}):
+def signedRequest(method, path, params):
     if "apiKey" not in options or "secret" not in options:
         raise ValueError("Api key and secret must be set")
 
