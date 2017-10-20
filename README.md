@@ -134,7 +134,7 @@ binance.order("BNBBTC", binance.BUY, 1000, 0.000001, newClientOrderId="foobar")
 
 #### Cancel order
 ```
-binance.cancel("BNBBTC", orderId=12345678)
+binance.cancel("BNBBTC", orderId=123456789)
 ```
 Example response
 ```
@@ -150,7 +150,7 @@ binance.cancel("BNBBTC", origClientOrderId="foobar")
 
 #### Get order status
 ```
-binance.orderStatus("BNBBTC", orderId=12345678)
+binance.orderStatus("BNBBTC", orderId=123456789)
 ```
 Example response
 ```
