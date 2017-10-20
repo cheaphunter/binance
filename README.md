@@ -123,7 +123,7 @@ Test an order to see if any errors are returned from the API. It will not actual
 ```
 binance.order("BNBBTC", binance.BUY, 1000, 0.000001, test=True)
 ```
-Example response
+Example response. An empty dict indicates that there were no errors.
 ```
 {}
 ```
