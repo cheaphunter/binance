@@ -1,6 +1,7 @@
 # Binance API client in Python
 
 #### Features
+- Complete coverage of all requirements in the Binance API Competition
 - Does not require an api key for public methods
 - Code is concise and clean
 - Compatible with Python 2.7-3.6
